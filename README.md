@@ -7,6 +7,7 @@ The Routing pattern is a workflow that classifies an input and directs it to a s
 From Anthropic:  
 <img width="907" height="393" alt="image" src="https://github.com/user-attachments/assets/82456eee-0ff1-409d-a407-e7f0825cf6fc" />
 
+Read more on the Anthropic Agent patterns here: https://www.anthropic.com/engineering/building-effective-agents
 
 ### Key Details
 
@@ -87,3 +88,9 @@ The routing pattern classifies incoming queries and routes them to specialized h
 2. Inherit from `BaseHandler`
 3. Add the category to `QueryCategory` enum
 4. Register in the router's handler map
+
+## Add RAG as needed
+
+Please note, this repo does not add RAG in any way. The LLM (Gemma3) in this case is responding with its own training data.
+
+Why not try and expand on this by adding RAG to it?
