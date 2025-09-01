@@ -74,6 +74,8 @@ This project demonstrates the Routing pattern for AI agents using Ollama and Gem
    OR
    Run: `streamlit run app.py` to run the streamlit app with a UI chat interface
 
+The main.py file will run a collection of queries one after the other, without needing any input from the user. The streamlit app will allow the user to add queries and route to the appropriate handler as needed.
+
 ## Architecture
 
 The routing pattern classifies incoming queries and routes them to specialized handlers:
